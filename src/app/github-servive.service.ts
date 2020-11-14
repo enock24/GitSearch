@@ -7,8 +7,8 @@ import "rxjs";
 })
 export class GithubServiveService {
   private username = 'enock24';
-  private client_id = '5ffa7c5cd4df559a6ac3';
-  private client_secret = 'c928803011adaf70ce872702dc01bc75ef47e6ea';
+  private client_id = '63dfe85bfb7e45c1bf7c';
+  private client_secret = '5fc741695a48cb7584d1afb9649cfb8d243b8db6';
 
   constructor(private http: HttpClient) { 
     console.log("Github service started");

@@ -1,11 +1,11 @@
 
-<app-navbar></app-navbar>
+<!-- <app-navbar></app-navbar> -->
 <br />
 <div class="container">
-    <router-outlet></router-outlet>
+    <!-- <router-outlet></router-outlet> -->
     <div class="card">
         <div class="card-body">
-            <div class="row">
+            <div class="row" *ngFor="let user of user">
                 <div class="col-md-4">
                     <img src="{{ user.avatar_url }}" class="img-fluid" alt="me" />
                 </div>
@@ -46,4 +46,4 @@
 </div>
 <br />
 <br />
-<app-footer></app-footer>
+<!-- <app-footer></app-footer> -->

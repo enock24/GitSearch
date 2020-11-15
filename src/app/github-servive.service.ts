@@ -14,15 +14,7 @@ export class GithubServiveService {
     console.log("Github service started");
   }
   getUser() {
-    return this.http.get(
-      "https://api.github.com/users/" +
-      this.username +
-      "?client_id=" +
-      this.client_id +
-      "&client_secret=" +
-      this.client_secret
-    );
-  }
+    return this.http.get(`https://api.github.com/users/${this.username}?${this.client_id}&${this.client_secret}`);}
   getRepos() {
     return this.http.get(
       "https://api.github.com/users/" +

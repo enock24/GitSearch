@@ -9,8 +9,12 @@ This is an an application that enables the user to search the github usernames o
  git clone https://github.com/enock24/gitsearch 
  cd gitsearch
  use atom . or code . to open the cloned repo on Atom or Vs-code respectively
-
-
+ ## Technologies Used
+- ANGULAR CLI
+- HTML5
+- CSS3
+- BOOTSTRAP
+- TYPESCTRIPTS
 ## Deployed link
 
 https://enock24.github.io/gitsearch/
